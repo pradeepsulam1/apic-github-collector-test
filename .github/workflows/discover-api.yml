@@ -4,7 +4,7 @@ on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: apps.apic-c7-8d1b.169.59.159.251.nip.io
-  PLATFORM_API_PREFIX: platform-api-apic
+  PLATFORM_API_PREFIX: production-mgmt-platform-api-apic
   PROVIDER_ORG: test-porg
   API_FILES: .github/workflows/discover-api.yml
 
